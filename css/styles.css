@@ -1,10 +1,34 @@
+body {margin: 0;
+height: 100%;}
+
+.container {width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.menu-page .container {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}
+
+
 .logo {font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;}
+color: #4d5ae5;
+display: flex;
+align-items: center;
+flex-shrink: 0;
+margin-right: 76px;
+}
 
 .logo-part-black {color: #2e2f42;}
 .logo-part-white {color: #f4f4fd;}
@@ -62,8 +86,7 @@ background-color: #FFF;}
 
 .container-text-list {background-color: #FFFFFF}
 
-.container-text-descr {color: #434455;
-    font-size: 16px;
+.container-text-descr {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 
@@ -88,8 +111,7 @@ background-color: #FFF;}
     line-height: 1.2;
     letter-spacing: 0.02em;}
 
-.team-job-title {color: #434455;
-    text-align: center;
+.team-job-title {text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
@@ -112,8 +134,7 @@ background-color: #FFF;}
     line-height: 1.2;
     letter-spacing: 0.02em;}
 
-.direction-item-portfolio-company {color: #434455;
-    font-size: 16px;
+.direction-item-portfolio-company {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 
@@ -125,3 +146,17 @@ background-color: #FFF;}
     letter-spacing: 0.02em;}
 
 .menu-page {background: #FFF;}
+
+.page-nav {display: flex;
+gap: 40px;
+list-style-type: none;}
+
+
+.page-address {display: flex;
+gap: 40px;
+list-style-type: none;
+}
+
+
+
+
