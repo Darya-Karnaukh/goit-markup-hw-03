@@ -18,10 +18,7 @@ align-items: center;
 flex-direction: row;
 }
 
-.menu-nav {display: flex;
-align-items: center;}
-
-.link {padding: 24px 0;}
+.menu-nav {display: flex;}
 
 .menu-page {background: #FFF;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);}
@@ -29,6 +26,7 @@ align-items: center;}
 .page-nav {display: flex;
 gap: 40px;
 list-style-type: none;
+padding: 24px 0;
 margin-right: 332px;}
 
 
@@ -130,12 +128,16 @@ display: flex;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);}
+    overflow: hidden;
+}
 
+.list-block {width: calc((100% - 72px) / 4);
+}
 
 .container-text-title {color: #2E2F42;
     font-size: 20px;
@@ -144,8 +146,6 @@ display: flex;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-
-.list-block {width: calc((100% - 72px) / 4);}
     
 .container-text-list {background-color: #FFFFFF;
 list-style-type: none;
@@ -180,7 +180,8 @@ display: flex;
 box-sizing: border-box;
 gap: 24px;
 align-items: center;
-}
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;}
 
 
 .name-job-block {display: flex;
@@ -188,16 +189,14 @@ padding: 32px 0;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
-.team-company-page {background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-width: calc((100% - 72px) / 4);
-}
+.team-company-page {background-color: #FFFFFF;}
 
 .team-name {color:#2E2F42;
     text-align: center;
@@ -217,9 +216,7 @@ padding-top: 120px;
     padding-bottom: 120px;
     display: flex;}
 
-.portfolio-block {border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 48px) / 3);
-}
+.portfolio-block {width: calc((100% - 48px) / 3);}
 
 
 .title-text-portfolio {color: #2E2F42;
@@ -239,8 +236,7 @@ margin-bottom: 72px;}
     align-items: flex-start;
     flex-shrink: 0;}
 
-.portfolio-company-list {
-    list-style-type: none;
+.portfolio-company-list {list-style-type: none;
 display: flex;
     box-sizing: border-box;
     column-gap: 24px;
@@ -261,16 +257,16 @@ margin-bottom: 8px;}
     letter-spacing: 0.02em;}
 
 .sector-contacts-company {background: #2E2F42;
-display: flex;
-padding: 100px 0;}
+display: flex;}
 
 .text-contacts-company {color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-max-width: 264px;}
+width: 264px;
+margin-bottom: 100px;}
 
-.sector-contacts-company .logo {display: inline-block;
-margin-bottom: 16px;
+.sector-contacts-company .logo {padding-top: 100px;
+padding-bottom: 17.5px;
 }
   
