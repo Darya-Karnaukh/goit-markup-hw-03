@@ -139,7 +139,7 @@ display: flex;
     overflow: hidden;
 }
 
-.list-block {flex-basis: calc((100% - 3 * 24px) / 4);
+.list-block {flex-basis: calc((100% - 72px) / 4);
 }
 
 .container-text-title {color: #2E2F42;
@@ -221,7 +221,6 @@ padding-top: 120px;
     display: flex;}
 
 .portfolio-block {width: calc((100% - 48px) / 3);}
-
 
 .title-text-portfolio {color: #2E2F42;
     font-size: 36px;
