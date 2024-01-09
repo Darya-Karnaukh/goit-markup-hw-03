@@ -18,7 +18,10 @@ align-items: center;
 flex-direction: row;
 }
 
-.menu-nav {display: flex;}
+.menu-nav {display: flex;
+align-items: center;}
+
+.link {padding: 24px 0;}
 
 .menu-page {background: #FFF;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);}
@@ -136,7 +139,7 @@ display: flex;
     overflow: hidden;
 }
 
-.list-block {width: calc((100% - 72px) / 4);
+.list-block {flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .container-text-title {color: #2E2F42;
@@ -180,7 +183,6 @@ display: flex;
 box-sizing: border-box;
 gap: 24px;
 align-items: center;
-width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;}
 
 
@@ -189,14 +191,16 @@ padding: 32px 0;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
 border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
-.team-company-page {background-color: #FFFFFF;}
+.team-company-page {background-color: #FFFFFF;
+flex-basis: calc((100% - 3 * 24px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
 
 .team-name {color:#2E2F42;
     text-align: center;
@@ -257,16 +261,17 @@ margin-bottom: 8px;}
     letter-spacing: 0.02em;}
 
 .sector-contacts-company {background: #2E2F42;
-display: flex;}
+display: flex;
+padding: 100px 0;}
 
 .text-contacts-company {color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-width: 264px;
-margin-bottom: 100px;}
+max-width: 264px;
+}
 
-.sector-contacts-company .logo {padding-top: 100px;
-padding-bottom: 17.5px;
+.sector-contacts-company .logo {display: inline-block;
+    margin-bottom: 16px;
 }
   
