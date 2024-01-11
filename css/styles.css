@@ -4,27 +4,52 @@ body {
     background-color: #FFF;
     margin: 0;
     height: 100%;
-    }
-
-img {display: block;}
-
-.container {width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;}
-
-.menu-page .container {display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
 }
 
-.menu-nav {display: flex;
-align-items: center;}
+h1, h2, h3 {
+    margin: 0;
+}
 
-.link {padding: 24px 0;}
+p {
+    margin: 0;
+}
 
-.menu-page {background: #FFF;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);}
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.menu-page .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 24px 0;
+}
+
+.menu-page {
+    background: #FFF;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    height: 72px;
+        flex-shrink: 0;
+}
 
 .page-nav {display: flex;
 gap: 40px;
@@ -49,7 +74,6 @@ line-height: 1.16666667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-right: 76px;
 display: flex;
 align-items: center;
 flex-shrink: 0;
@@ -84,9 +108,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
-margin-right: 635px;
-margin-left: 636px;
 padding-left: 32px;
+margin: auto;
 padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
@@ -112,18 +135,20 @@ padding: 188px 0;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
-    padding-left: 472px;
-    padding-right: 472px;
+    padding-bottom: 48px;
     display: block;
     box-sizing: content-box;
+    margin: auto;
     width: 100%;
     max-width: 496px;}
 
-.container-text {background-color: #FFF;
+.container-text {
 padding-top: 120px;
 padding-bottom: 120px;
-display: flex;
+}
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 .visually-hidden {
@@ -186,7 +211,7 @@ align-items: center;
 border-radius: 0px 0px 4px 4px;}
 
 
-.name-job-block {display: flex;
+.name-job-block {
 padding: 32px 0;
 flex-direction: column;
 justify-content: center;
@@ -218,7 +243,7 @@ border-radius: 0px 0px 4px 4px;
 .sector-portfolio-company {background: #FFF;
 padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;}
+    }
 
 .portfolio-block {width: calc((100% - 48px) / 3);}
 
