@@ -38,6 +38,7 @@ a {
 .menu-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .link {
@@ -55,7 +56,7 @@ a {
 gap: 40px;
 list-style-type: none;
 padding: 24px 0;
-margin-right: 332px;}
+}
 
 
 .page-address {display: flex;
@@ -137,9 +138,7 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
     display: block;
-    box-sizing: content-box;
     margin: auto;
-    width: 100%;
     max-width: 496px;}
 
 .container-text {
@@ -191,7 +190,6 @@ gap: 24px;
 .sector-team-company {background: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
-display: flex;
 }
 
 .info-company {color: #2E2F42;
@@ -259,7 +257,6 @@ margin-bottom: 72px;}
 .item {padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;}
@@ -285,7 +282,6 @@ margin-bottom: 8px;}
     letter-spacing: 0.02em;}
 
 .sector-contacts-company {background: #2E2F42;
-display: flex;
 padding: 100px 0;}
 
 .text-contacts-company {color: #F4F4FD;
